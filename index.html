@@ -10,7 +10,10 @@
 	<h1>JS projet_02 exercice_01</h1>
 	<p>Changez l'image au survol de la souris</p>
 	<div class="container-fluid">
-		<div class="row col-6 d-flex justify-content-center mt-5"><img alt="image de couverture de livre sur le code" class="img-fluid" id="img1" onmouseover="changePicture()" src="./image1.jpg"></div>
+		<div class="row col-6 d-flex justify-content-center mt-5">
+			<!-- onMouseOver déclenche un événement sur la balise "img" qui appelle la foncton "changePicture()" -->
+			<img alt="image de couverture de livre sur le code" class="img-fluid" id="img1" onMouseOver="changePicture()" src="./image1.jpg">
+		</div>
 	</div>
 	<script src="app.js">
 	</script>
